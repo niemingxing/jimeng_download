@@ -1,0 +1,54 @@
+{
+	"manifest_version": 3,
+	"name": "即梦魔法工具",
+	"version": "1.0",
+	"description": "即梦视频、图片无水印下载插件，让即梦使用更轻松。",
+	"author": "niemingxing",
+	"icons":
+	{
+		"16":"icon16.png",
+		"48":"icon48.png",
+		"128":"icon128.png"
+	},
+	"action":
+	{
+		"default_icon": "icon16.png",
+		"default_popup": "popup.html"
+	},
+	"options_page": "options.html",
+	"background":
+	{
+		"service_worker": "js/background.js"
+	},
+	"host_permissions": [
+		"https://jimeng.jianying.com/*",
+		"https://api.kaipm.com/*"
+	],
+	"content_scripts": 
+	[
+		{
+			"matches": ["https://jimeng.jianying.com/*"],
+			"js": ["js/content-script.js"],
+			"css": [
+				"css/page_layer.css"
+			]
+		}
+	],
+	"web_accessible_resources":
+	[
+		{
+			"resources" : ["css/page_layer.css","js/inject.js"],
+			"matches": [
+				"*://jimeng.jianying.com/*"
+			]
+		}
+	],
+	"permissions": [
+		"storage",
+		"activeTab",
+		"tabs",
+		"scripting",
+		"clipboardRead",
+		"clipboardWrite"
+	]
+}
