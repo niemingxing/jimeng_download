@@ -6,9 +6,8 @@
 
 示例图片|[安装参考](https://www.bilibili.com/video/BV1514y1U7Uw/?vd_source=07bc57c14ff07a0d104533f8de5fb6d3)
 
-![image](https://github.com/niemingxing/buyin_enhance/assets/7400829/58263bc2-106b-4550-9a94-33c9836f6fcc)
+<img width="3024" height="1538" alt="image" src="https://github.com/user-attachments/assets/d6acb0cf-9754-487d-a939-49569ae72b60" />
 
-![image](https://github.com/niemingxing/buyin_enhance/assets/7400829/26d0849f-b80d-443b-9ea1-96fbc9a6379f)
 
 ### 交流方式：
 
